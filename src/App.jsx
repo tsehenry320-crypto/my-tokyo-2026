@@ -1,4 +1,6 @@
-import confetti from 'canvas-confetti';
+import React, { useState, useEffect } from 'react'
+import { Calendar, MapPin, Clock, CheckCircle2, Circle, Star, Coffee, Utensils, Camera, Train, Info, ChevronDown, ChevronUp, ExternalLink, Ticket, Heart } from 'lucide-react'
+import confetti from 'canvas-confetti'
 import React, { useState, useEffect } from 'react';
 import { 
   Calendar, 
